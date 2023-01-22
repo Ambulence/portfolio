@@ -1,0 +1,11 @@
+.author__photo {
+    position: absolute;
+    right: 3rem;
+    bottom: 0;
+    z-index: 2;
+
+    @media (max-width: $beakpoint_xl)  {
+        display: none;
+    }
+}
+

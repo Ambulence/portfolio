@@ -1,0 +1,19 @@
+.content {
+    flex: 1;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__title {
+    margin-bottom: 2rem;
+
+    font-size: 2rem;
+    font-weight: 700;
+    color: $black;
+
+    @media (max-width: $beakpoint_md) {
+        margin-bottom: 0;
+    }
+}

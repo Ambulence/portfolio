@@ -1,0 +1,47 @@
+
+<div class="modal fade" id="request-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <button class="btn-close  modal__close" type="button" data-bs-dismiss="modal" aria-label="Close">
+                <svg class="close__icon">
+                    <use xlink:href="#cancel"></use>
+                </svg>
+            </button>
+
+            <div class="modal__title">Оставить заявку</div>
+            <div class="modal__text">
+                <p>Заполните форму ниже и я свяжусь с Вами в ближайшее время!</p>
+            </div>
+
+            <form class="form" action="/" method="post">
+                <div class="form__group">
+                    <input class="input" type="text" placeholder="Ваше имя">
+                </div>
+                <div class="form__group">
+                    <input class="input" type="email" placeholder="Ваш e-mail">
+                </div>
+                <div class="form__group">
+                    <input class="input" type="tel" placeholder="Ваш телефон">
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <button class="btn  btn--pink" type="submit">Оставить заявку</button>
+                    </div>
+                    <div class="col-6">
+                        <ul class="contacts  contacts--modal">
+                            <li class="contacts__item">
+                                <a class="contacts__link" href="tell:+380977631319">+38 097-763-13-19</a>
+                            </li>
+
+                            <li class="contacts__item">
+                                <a class="contacts__link" href="mailto:nurchiksasha@gmail.com">nurchiksasha@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </div> <!-- ./modal-content -->
+    </div> <!-- ./modal-dialog -->
+</div> <!-- ./modal fade -->

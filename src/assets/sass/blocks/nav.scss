@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nav__link {
+    padding: .3rem 1.5rem;
+    margin-right: 1rem;
+
+    color: $black;
+    text-decoration: none;
+
+    border-radius: 20px;
+
+    transition: background .2s linear;
+
+    &:hover {
+        background-color: darken($grey, 3%);
+    }
+
+    &.active {
+        color: $white;
+        background-color: $pink;
+    }
+
+    @media (max-width: $beakpoint_sm) {
+        padding: .3rem 1rem;
+    }
+
+    @media (max-width: $beakpoint_xsm) {
+        padding: .3rem .3rem;
+    }
+}
+
+
